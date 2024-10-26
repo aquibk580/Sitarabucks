@@ -1,0 +1,174 @@
+Product Name: AMERICANO, Quantity: 5, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ../stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: Chocolate Cake Combo, Quantity: 1, Price: 349, Product Image: ./stocks/o1.jpg
+Product Name: Burger And Fries Combo, Quantity: 1, Price: 399, Product Image: ./stocks/m6.jpg
+Product Name: COLD COCO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/milkshake_img/cold coco.jpg
+Product Name: CAPPUCCINO, Quantity: 1, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: COLD BREW LATTE, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/cold-brew-latte.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: Burger And Fries Combo, Quantity: 1, Price: 399, Product Image: ./stocks/m6.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: CAPPUCCINO, Quantity: 1, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: ICED CARAMEL LATTE, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-caramel-latte.jpg
+Product Name: Margherita Pizza, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/foods/margherita_pizza.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: COLD BREW, Quantity: 27, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: AMERICANO, Quantity: 50, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Pizza And Noodles Combo, Quantity: 100, Price: 799, Product Image: ./stocks/m9.webp
+Product Name: AMERICANO, Quantity: 2, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 2, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 2, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 3, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 4, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 5, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 2, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 3, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 2, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: CAPPUCCINO, Quantity: 1, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: CAPPUCCINO, Quantity: 3, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 3, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: NITRO COLD BREW, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/black_coffee_img/nitro_cold_brew.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: Grilled Chicken And Sandwich Combo, Quantity: 2, Price: 449, Product Image: ./stocks/m7.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: MANGO MILKSHAKE, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/mango milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: COLD BREW, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: FRENCH PRESS COFFEE, Quantity: 1, Price: 160, Product Image: ./stocks/menu/MENU_img/black_coffee_img/french_press_coffee.jpg
+Product Name: ICED AMERICANO, Quantity: 1, Price: 170, Product Image: ./stocks/menu/MENU_img/black_coffee_img/iced_americano.jpg
+Product Name: LONG BLACK, Quantity: 1, Price: 190, Product Image: ./stocks/menu/MENU_img/black_coffee_img/long_black.jpg
+Product Name: NITRO COLD BREW, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/black_coffee_img/nitro_cold_brew.jpg
+Product Name: POUR OVER COFFEE, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/black_coffee_img/pour_over_coffee.jpg
+Product Name: RISTRETTO, Quantity: 1, Price: 160, Product Image: ./stocks/menu/MENU_img/black_coffee_img/ristretto.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: CAPPUCCINO, Quantity: 1, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: CORTADO, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cortado.jpg
+Product Name: FLAT WHITE, Quantity: 1, Price: 230, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/flat_white.jpg
+Product Name: ICED LATTE, Quantity: 1, Price: 210, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/iced_latte.jpg
+Product Name: ICED MOCHA, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/iced_mocha.jpg
+Product Name: LATTE, Quantity: 1, Price: 230, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/latte.jpg
+Product Name: MACCHIATO, Quantity: 1, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/macchiato.jpg
+Product Name: MOCHA, Quantity: 1, Price: 260, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/mocha.jpg
+Product Name: VIENNA COFFEE, Quantity: 1, Price: 280, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/vienna_coffee.jpg
+Product Name: COFFEE FREPPE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/coffee-freppe.jpg
+Product Name: COLD BREW LATTE, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/cold-brew-latte.jpg
+Product Name: COLD COFFEE WITH WHIPPED CREAM, Quantity: 1, Price: 300, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/cold-coffee-with-whipped-cream.jpg
+Product Name: ICED ALMOND COFFEE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-almond-coffee.jpg
+Product Name: ICED CARAMEL LATTE, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-caramel-latte.jpg
+Product Name: ICED COFFEE, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-coffee.jpg
+Product Name: ICED HAZELNUT COFFEE, Quantity: 1, Price: 300, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-hazelnut-coffee.jpg
+Product Name: ICED MOCHA, Quantity: 1, Price: 400, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-mocha.jpg
+Product Name: ICED VANILLA COFFEE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-vanilla-coffee.jpg
+Product Name: ICED VANILLA LATTE, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/iced-vanilla-latte.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Burger, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Wrap, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: Egg Salad Sandwich, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/foods/egg_salad_sandwich.jpg
+Product Name: Margherita Pizza, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/foods/margherita_pizza.jpg
+Product Name: Paneer Tikka Sandwich, Quantity: 1, Price: 170, Product Image: ./stocks/menu/MENU_img/foods/paneer_tikka_sandwich.jpg
+Product Name: Pepperoni Pizza, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/foods/pepperoni_pizza.jpg
+Product Name: Veggie Burger, Quantity: 1, Price: 160, Product Image: ./stocks/menu/MENU_img/foods/veggie_burger.jpg
+Product Name: Veggie Pasta, Quantity: 1, Price: 210, Product Image: ./stocks/menu/MENU_img/foods/veggie_pasta.jpg
+Product Name: Veggie Wrap, Quantity: 1, Price: 140, Product Image: ./stocks/menu/MENU_img/foods/veggie_wrap.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: Brownee, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/Sweets/brownee.jpg
+Product Name: Cantucci (Italian Almond Biscuits), Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/Sweets/cantucci.jpg
+Product Name: Classic Chocolate Chip Cookies, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/Sweets/classic chocolate chip cookies.jpg
+Product Name: Classic Vanilla Cupcakes, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/Sweets/classic vanilla cupcakes.jpg
+Product Name: Coffee Cake, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/Sweets/coffee cake.jpg
+Product Name: Coffee Macarons, Quantity: 1, Price: 300, Product Image: ./stocks/menu/MENU_img/Sweets/coffee macarons.jpg
+Product Name: Creme Caramel Pudding, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/Sweets/creme caramel pudding.jpg
+Product Name: Lemonade Cake with Cream Cheese Frosting, Quantity: 1, Price: 280, Product Image: ./stocks/menu/MENU_img/Sweets/lemonade cake with cream cheese frosting.jpg
+Product Name: Mocha Crunch Donuts, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/Sweets/mocha crunch donuts.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: COLD COCO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/milkshake_img/cold coco.jpg
+Product Name: COOKIES AND CREAM MILKSHAKE, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/cookies and cream milkshake.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 1, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: DREAMY CARAMEL MILKSHAKE, Quantity: 1, Price: 210, Product Image: ./stocks/menu/MENU_img/milkshake_img/dreamy caramel milkshake.jpg
+Product Name: EASY PEANUT BUTTER MILKSHAKE, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/milkshake_img/peanut butter milkshake.jpg
+Product Name: VANILLA MILKSHAKE, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/vanilla milkshake.jpg
+Product Name: MANGO MILKSHAKE, Quantity: 1, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/mango milkshake.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: STRAWBERRY SMOOTHIE, Quantity: 1, Price: 200, Product Image: ./stocks/menu/MENU_img/milkshake_img/strawberry smoothie.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: Chocolate Cake Combo, Quantity: 1, Price: 349, Product Image: ./stocks/o1.jpg
+Product Name: Chocolate Cake Combo, Quantity: 1, Price: 349, Product Image: ./stocks/o2.jpg
+Product Name: Chocolate Cake Combo, Quantity: 1, Price: 349, Product Image: ./stocks/o3.jpg
+Product Name: Burger And Fries Combo, Quantity: 1, Price: 399, Product Image: ./stocks/m6.jpg
+Product Name: Grilled Chicken And Sandwich Combo, Quantity: 1, Price: 449, Product Image: ./stocks/m7.jpg
+Product Name: Pizza And Noodles Combo, Quantity: 1, Price: 799, Product Image: ./stocks/m9.webp
+Product Name: BLACK COFFEE, Quantity: 1, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: Brownee, Quantity: 2, Price: 200, Product Image: ./stocks/menu/MENU_img/Sweets/brownee.jpg
+Product Name: Coffee And Cake Combo, Quantity: 2, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: Coffee And Donut Combo, Quantity: 1, Price: 249, Product Image: ./stocks/m4.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 1, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 2, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
+Product Name: COLD BREW, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg

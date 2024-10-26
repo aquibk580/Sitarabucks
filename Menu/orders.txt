@@ -1,0 +1,169 @@
+Product Name: CAFÉ AU LAIT, Quantity: 3, Size: Tall, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: MANGO MILKSHAKE, Quantity: 4, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/mango milkshake.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 3, Size: Grande, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: COLD BREW, Quantity: 3, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpgProduct Name: Chicken Alfredo Pasta, Quantity: 1, Size: Venti, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Egg Salad Sandwich, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/foods/egg_salad_sandwich.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Brownee, Quantity: 1, Size: Grande, Price: 200, Product Image: ./stocks/menu/MENU_img/Sweets/brownee.jpg
+Product Name: Veggie Wrap, Quantity: 1, Size: Grande, Price: 140, Product Image: ./stocks/menu/MENU_img/foods/veggie_wrap.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: VIENNA COFFEE, Quantity: 1, Size: Grande, Price: 280, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/vienna_coffee.jpg
+Product Name: ICED MOCHA, Quantity: 12, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/iced_mocha.jpg
+Product Name: ICED LATTE, Quantity: 5, Size: Grande, Price: 210, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/iced_latte.jpg
+Product Name: AMERICANO, Quantity: 4, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 6, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: FRENCH PRESS COFFEE, Quantity: 1, Size: Grande, Price: 160, Product Image: ./stocks/menu/MENU_img/black_coffee_img/french_press_coffee.jpg
+Product Name: Margherita Pizza, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/foods/margherita_pizza.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: COOKIES AND CREAM MILKSHAKE, Quantity: 50, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/cookies and cream milkshake.jpg
+Product Name: COLD COCO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/milkshake_img/cold coco.jpg
+Product Name: COOKIES AND CREAM MILKSHAKE, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/cookies and cream milkshake.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 1, Size: Grande, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: Paneer Tikka Sandwich, Quantity: 1, Size: Grande, Price: 170, Product Image: ./stocks/menu/MENU_img/foods/paneer_tikka_sandwich.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 2, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Egg Salad Sandwich, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/foods/egg_salad_sandwich.jpg
+Product Name: Margherita Pizza, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/foods/margherita_pizza.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 2, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 2, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 2, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: COFFEE FREPPE, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/coffee-freppe.jpg
+Product Name: COLD BREW LATTE, Quantity: 1, Size: Grande, Price: 200, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/cold-brew-latte.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: DRIP COFFEE, Quantity: 2, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: CAPPUCCINO, Quantity: 5, Size: Grande, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: CORTADO, Quantity: 4, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cortado.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 4, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 2, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: COLD BREW, Quantity: 2, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: AMERICANO, Quantity: 2, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 2, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: Chicken Burger, Quantity: 2, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: Veggie Wrap, Quantity: 1, Size: Grande, Price: 140, Product Image: ./stocks/menu/MENU_img/foods/veggie_wrap.jpg
+Product Name: Veggie Burger, Quantity: 1, Size: Grande, Price: 160, Product Image: ./stocks/menu/MENU_img/foods/veggie_burger.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 5, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Egg Salad Sandwich, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/foods/egg_salad_sandwich.jpg
+Product Name: COLD COCO, Quantity: 5, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/milkshake_img/cold coco.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Alfredo Pasta, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/foods/chicken_alfredo_pasta.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Classic Chocolate Chip Cookies, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/Sweets/classic chocolate chip cookies.jpg
+Product Name: Best Red Velvet Cake, Quantity: 1, Size: Grande, Price: 350, Product Image: ./stocks/menu/MENU_img/Sweets/best red velvet cake.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: Coffee Cake, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/Sweets/coffee cake.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: Margherita Pizza, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/foods/margherita_pizza.jpg
+Product Name: Veggie Wrap, Quantity: 1, Size: Grande, Price: 140, Product Image: ./stocks/menu/MENU_img/foods/veggie_wrap.jpg
+Product Name: Pepperoni Pizza, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/foods/pepperoni_pizza.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: NITRO COLD BREW, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/black_coffee_img/nitro_cold_brew.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: FRENCH PRESS COFFEE, Quantity: 1, Size: Grande, Price: 160, Product Image: ./stocks/menu/MENU_img/black_coffee_img/french_press_coffee.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: Pepperoni Pizza, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/foods/pepperoni_pizza.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Pepperoni Pizza, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/foods/pepperoni_pizza.jpg
+Product Name: Veggie Burger, Quantity: 1, Size: Grande, Price: 160, Product Image: ./stocks/menu/MENU_img/foods/veggie_burger.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Cantucci (Italian Almond Biscuits), Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/Sweets/cantucci.jpg
+Product Name: COFFEE MILKSHAKE, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/coffee milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Burger, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/foods/chicken_burger.jpg
+Product Name: Classic Chocolate Chip Cookies, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/Sweets/classic chocolate chip cookies.jpg
+Product Name: DREAMY CARAMEL MILKSHAKE, Quantity: 1, Size: Grande, Price: 210, Product Image: ./stocks/menu/MENU_img/milkshake_img/dreamy caramel milkshake.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: COOKIES AND CREAM MILKSHAKE, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/cookies and cream milkshake.jpg
+Product Name: Coffee Macarons, Quantity: 1, Size: Grande, Price: 300, Product Image: ./stocks/menu/MENU_img/Sweets/coffee macarons.jpg
+Product Name: COLD BREW LATTE, Quantity: 1, Size: Grande, Price: 200, Product Image: ./stocks/menu/MENU_img/cold_coffee_img/cold-brew-latte.jpg
+Product Name: CAPPUCCINO, Quantity: 1, Size: Grande, Price: 240, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/cappuccino.jpg
+Product Name: CAFÉ AU LAIT, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/café_au_lait.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: Classic Chocolate Chip Cookies, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/Sweets/classic chocolate chip cookies.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 1, Size: Grande, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: DRIP COFFEE, Quantity: 1, Size: Grande, Price: 130, Product Image: ./stocks/menu/MENU_img/black_coffee_img/drip_coffee.jpg
+Product Name: AMERICANO, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 1, Size: Grande, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
+Product Name: Chicken Wrap, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/foods/chicken_wrap.jpg
+Product Name: Classic Chocolate Chip Cookies, Quantity: 1, Size: Grande, Price: 150, Product Image: ./stocks/menu/MENU_img/Sweets/classic chocolate chip cookies.jpg
+Product Name: COOKIES AND CREAM MILKSHAKE, Quantity: 1, Size: Grande, Price: 220, Product Image: ./stocks/menu/MENU_img/milkshake_img/cookies and cream milkshake.jpg
+Product Name: NUTELLA MILKSHAKE, Quantity: 1, Size: Grande, Price: 250, Product Image: ./stocks/menu/MENU_img/milkshake_img/nutella milkshake.jpg
+Product Name: MOCHA, Quantity: 1, Size: Grande, Price: 260, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/mocha.jpg
+Product Name: VIENNA COFFEE, Quantity: 1, Size: Grande, Price: 280, Product Image: ./stocks/menu/MENU_img/milk_coffee_img/vienna_coffee.jpg
+Product Name: COLD BREW, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
+Product Name: Egg Salad Sandwich, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/foods/egg_salad_sandwich.jpg
+Product Name: CREAMY BANANA BLISS!, Quantity: 1, Size: Grande, Price: 190, Product Image: ./stocks/menu/MENU_img/milkshake_img/creamy banana bliss.jpg
+Product Name: VANILLA MILKSHAKE, Quantity: 1, Size: Grande, Price: 180, Product Image: ./stocks/menu/MENU_img/milkshake_img/vanilla milkshake.jpg
+Product Name: BLACK COFFEE, Quantity: 1, Size: Grande, Price: 120, Product Image: ./stocks/menu/MENU_img/black_coffee_img/black_coffee.jpg
