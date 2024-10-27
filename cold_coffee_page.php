@@ -36,25 +36,7 @@ include("menu_arr.php");
 </head>
 
 <body>
-    <nav id="nav" class="bg-sitarabuk-brown fixed top-0 left-0 h-full w-48 flex flex-col text-white pt-20 rounded-r-xl">
-        <!-- Logo and Store Info -->
-        <div id="navdiv1" class="mb-10 text-center">
-            <img src="./stocks/menu/logo.jpg" alt="Sitarabuks Logo" class="w-20 h-20 mx-auto mb-2 rounded-full">
-
-
-            <h1 class="font-poiret text-2xl">SITARABUKS</h1>
-            <p class="text-sm">SINCE 2001</p>
-        </div>
-
-        <!-- Navigation Links -->
-        <?php include_once("./nav.php") ?>  
-
-        <!-- Customer Support -->
-        <div id="navdiv3" class="mt-auto flex items-center p-2 pb-5">
-            <img src="./stocks/menu/support.png" class="w-10 h-auto mr-2" alt="">
-            <h1 class="text-sm">CUSTOMER SUPPORT</h1>
-        </div>
-    </nav>
+   <?php include_once "./nav.php"; ?>
     <!-- NAVIGATION BAR END -->
     <div class="main-content">
         <div class="category-menu">
@@ -62,37 +44,37 @@ include("menu_arr.php");
                 <a href="./black_coffee_page.php">
                     <img src=".\stocks\menu\status1.jpg" alt="Black Coffee" class="category-image">
                 </a>
-                <p>BLACK COFFEE</p>
+                <p class="menu-text">BLACK COFFEE</p>
             </div>
             <div class="category-item">
                 <a href="milk_coffee_page.php">
                     <img src=".\stocks\menu\status2.jpg" alt="Milk Coffee" class="category-image">
                 </a>
-                <p>MILK COFFEE</p>
+                <p class="menu-text">MILK COFFEE</p>
             </div>
             <div class="category-item">
             <a href="cold_coffee_page.php">
                 <img src=".\stocks\menu\status3.jpg" alt="Cold Coffee" class="category-image arc">
                 </a>
-                <p>COLD COFFEE</p>
+                <p class="menu-text">COLD COFFEE</p>
             </div>
             <div class="category-item">
             <a href="food_page.php">
                 <img src=".\stocks\menu\status4.jpg" alt="Food" class="category-image">
                 </a>
-                <p>FOOD</p>
+                <p class="menu-text">FOOD</p>
             </div>
             <div class="category-item">
             <a href="sweets_page.php">
                 <img src=".\stocks\menu\status5.jpg" alt="Sweets" class="category-image">
                 </a>
-                <p>SWEETS</p>
+                <p class="menu-text">SWEETS</p>
             </div>
             <div class="category-item">
             <a href="milk_shake_page.php">
                 <img src=".\stocks\menu\status6.jpg" alt="Sweets" class="category-image">
                 </a>
-                <p>MILKSHAKE</p>
+                <p class="menu-text">MILKSHAKE</p>
             </div>
         </div>
         <div class="product-grid">

@@ -11,7 +11,7 @@ function cartData()
 
     // Check if the cart is set and not empty
     if (!isset($_SESSION['cart']) || empty($_SESSION['cart'])) {
-        echo '<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 pb-56 pl-60">
+        echo '<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 pb-56 md:pl-60">
     <div class="bg-white p-8 rounded-lg shadow-lg text-center">
         <img src="./stocks/empty-cart.png" alt="Empty Cart" class="w-32 h-32 mx-auto mb-6">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">Your Cart is Empty</h2>
@@ -32,7 +32,7 @@ function cartData()
 
     // If no valid products are found, show a message
     if (empty($products)) {
-        echo '<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100  pb-56 pl-60">
+        echo '<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100  pb-56 md:pl-60">
     <div class="bg-white p-8 rounded-lg shadow-lg text-center">
         <img src="./stocks/empty-cart.png" alt="Empty Cart" class="w-32 h-32 mx-auto mb-6">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">Your Cart is Empty</h2>
@@ -49,24 +49,24 @@ function cartData()
         // Calculate total price for the product
         $totalPrice = floatval($product['price']) * intval($product['qty']);
         $_SESSION['Total'] += $totalPrice;
-
+    
         echo '
-        <div class="w-full max-w-xl   rounded-xl shadow-lg hover:scale-[1.1]  transition duration-300 mb-4">
-            <div class="flex items-center justify-between bg-white pr-3 rounded-md"> 
-                <img src="' . htmlspecialchars($product['productImage']) . '" alt="' . htmlspecialchars($product['pname']) . '" class="w-24 h-24 object-cover rounded-l-lg ">
-                <div class="flex-1 ml-4">
-                    <h3 class="font-semibold">' . htmlspecialchars($product['pname']) . '</h3>
+        <div class="w-full max-w-xl bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 mb-4 overflow-hidden">
+            <div class="flex flex-col md:flex-row items-center justify-between p-4">
+                <img src="' . htmlspecialchars($product['productImage']) . '" alt="' . htmlspecialchars($product['pname']) . '" class="w-24 h-24 object-cover rounded-lg mb-4 md:mb-0 md:mr-4">
+                <div class="flex-1">
+                    <h3 class="font-semibold text-xl text-gray-800">' . htmlspecialchars($product['pname']) . '</h3>
                     <p class="text-gray-600">₹' . htmlspecialchars($product['price']) . ' x ' . intval($product['qty']) . '</p>
                 </div>
-                <form method="post" class="flex items-center space-x-2">
-                    <span class="font-semibold">₹' . number_format($totalPrice, 2) . '</span>
-                     <button type="submit" name="removeBtn" value="' . $index . '" class="w-4 h-4 cursor-pointer">
-                        <img src="./stocks/trash.png" alt="Delete" class="w-4 h-4 cursor-pointer">
+                <form method="post" class="flex items-center space-x-2 mt-2 md:mt-0">
+                    <span class="font-semibold text-lg text-gray-800">₹' . number_format($totalPrice, 2) . '</span>
+                    <button type="submit" name="removeBtn" value="' . $index . '" class="w-6 h-6">
+                        <img src="./stocks/trash.png" alt="Delete" class="w-6 h-6">
                     </button>
-                   
                 </form>
             </div>
         </div>
         ';
     }
+    
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,12 +23,19 @@
         }
     </script>
 </head>
+
 <body class="font-montserrat flex flex-col min-h-screen">
     <!-- Hamburger Button (Visible only on small devices) -->
-    <div class="fixed top-4 left-4 z-50 md:hidden">
-        <button id="hamburger" class="text-white focus:outline-none">
-            <img id="hamburgerIcon" src="./stocks/hamburger (3).png" alt="Menu" class="w-8 h-auto">
-        </button>
+    <div class="h-auto mb-16 w-full md:hidden">
+        <div class="fixed px-6 py-4 top-0 shadow-lg w-full z-50 bg-sitarabuk-brown flex flex-row justify-between">
+            <button id="hamburger" class="text-white focus:outline-none">
+                <img id="hamburgerIcon" src="./stocks/hamburger (1).png" alt="Menu" class="w-7 h-auto">
+            </button>
+            <h2 class="text-2xl text-white font-bold">SitaraBucks</h2>
+            <a href="cart.php">
+            <img src="./stocks/grocery-store.png" alt="Cart" class="w-7 h-auto">
+            </a>
+        </div>
     </div>
 
     <!-- Sidebar Navigation -->
@@ -125,4 +133,5 @@
         });
     </script>
 </body>
+
 </html>

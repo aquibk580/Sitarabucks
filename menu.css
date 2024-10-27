@@ -325,6 +325,30 @@ body {
 }
 
 
+@media(max-width:768px){
+  .main-content{
+    margin-left: 0;
+  }
+  .category-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+  .menu-text{
+    font-size: xx-small;
+    width: 50px;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+.main-content {
+  padding: 12px;
+}
+}
 
 
 

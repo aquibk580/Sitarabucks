@@ -111,160 +111,127 @@ $current_page = isset($_GET['page']) ? $_GET['page'] : 'combos';
 
     <!-- Side Nav -->
     <?php include_once("./nav.php"); ?>
-
     <!-- Main Content -->
-    <div class="ml-48 p-10">
-        <div class=" p-10">
-            <div class="flex justify-center space-x-20 py-8 mb-[30px]">
-                <div onclick="showCombo('coffee-combos')" class="cursor-pointer text-center">
-                    <div class="w-52 h-52 bg-[#310E05] rounded-full flex items-center justify-center">
-                        <img src="./stocks/combo1.png" alt="Coffee Combo Icon" class="w-52 h-52 rounded-full object-cover">
-                    </div>
-                    <p class="mt-4 text-[#5B3B2B] font-semibold font-montserrat hover:underline">COFFEE COMBO</p>
+    <div class="p-4 md:ml-48 md:p-10">
+        <!-- Combo Category Selector -->
+        <div class="flex flex-wrap justify-center gap-8 md:gap-20 py-8 mb-8">
+            <div onclick="showCombo('coffee-combos')" class="cursor-pointer text-center">
+                <div class="w-32 h-32 md:w-52 md:h-52 bg-[#310E05] rounded-full flex items-center justify-center mx-auto">
+                    <img src="./stocks/combo1.png" alt="Coffee Combo Icon" class="w-full h-full rounded-full object-cover">
                 </div>
-                <div onclick="showCombo('sweets-combos')" class="cursor-pointer text-center">
-                    <div class="w-52 h-52 bg-[#570C00] rounded-full flex items-center justify-center">
-                        <img src="./stocks/combo2.png" alt="Sweets Combo Icon" class="w-52 h-52 rounded-full object-cover">
-                    </div>
-                    <p class="mt-4 text-[#5B3B2B] font-semibold font-montserrat hover:underline">SWEET'S COMBO</p>
+                <p class="mt-4 text-[#5B3B2B] font-semibold hover:underline">COFFEE COMBO</p>
+            </div>
+            <div onclick="showCombo('sweets-combos')" class="cursor-pointer text-center">
+                <div class="w-32 h-32 md:w-52 md:h-52 bg-[#570C00] rounded-full flex items-center justify-center mx-auto">
+                    <img src="./stocks/combo2.png" alt="Sweets Combo Icon" class="w-full h-full rounded-full object-cover">
                 </div>
-                <div onclick="showCombo('food-combos')" class="cursor-pointer text-center">
-                    <div class="w-52 h-52 bg-[#193105] rounded-full flex items-center justify-center">
-                        <img src="./stocks/combo3.png" alt="Food Combo Icon" class="w-52 h-52 rounded-full object-cover">
-                    </div>
-                    <p class="mt-4 text-[#3D5939] font-semibold font-montserrat hover:underline">FOOD COMBO</p>
+                <p class="mt-4 text-[#5B3B2B] font-semibold hover:underline">SWEET'S COMBO</p>
+            </div>
+            <div onclick="showCombo('food-combos')" class="cursor-pointer text-center">
+                <div class="w-32 h-32 md:w-52 md:h-52 bg-[#193105] rounded-full flex items-center justify-center mx-auto">
+                    <img src="./stocks/combo3.png" alt="Food Combo Icon" class="w-full h-full rounded-full object-cover">
                 </div>
+                <p class="mt-4 text-[#3D5939] font-semibold hover:underline">FOOD COMBO</p>
             </div>
         </div>
 
-
-        <!-- Combo Cards -->
-        <div class="space-y-8">
-
-            <div id="coffee-combos" style="display: block;">
-                <h2 class="text-3xl font-bold mb-6 text-center font-montserrat">Coffee Combos</h2>
-                <?php foreach ($coffeeCombos as $combo): ?>
-                    <div class="bg-white rounded-lg shadow-lg p-6 flex mb-6 card">
-                        <div class="w-[200px]">
-                            <img src="<?= htmlspecialchars($combo['image']); ?>"
-                                alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
-                        </div>
-                        <div class="w-3/4 pl-6">
-                            <h3 class="text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
-                            <p class="text-sm text-gray-600 mt-2 font-montserrat">
-                                <?= htmlspecialchars($combo['description']); ?>
-                            </p>
-                            <p class="text-xs text-gray-500 mt-1 font-montserrat">
-                                Coffee: <?= htmlspecialchars($combo['coffee_calories']); ?> |
-                                Cake: <?= htmlspecialchars($combo['cake_calories']); ?> |
-                                Total: <?= htmlspecialchars($combo['total_calories']); ?>
-                            </p>
-                            <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
-                            <p class="text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
-
-                            <div class="flex justify-between items-center mt-4 btn-cart">
-                                <div class="flex items-center">
-                                    <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
-                                    <span class="quantity-value px-4">1</span>
-                                    <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
-
-                                </div>
-                                <button
-                                    class="bg-[#310E05] text-white py-2 px-6 rounded-lg flex justify-center cart-btn items-center w-[200px]">
-                                    <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-3 ml-3" alt="">
-                                    <p>CART</p>
-                                </button>
+        <!-- Coffee Combos -->
+        <div id="coffee-combos" class="space-y-8 block">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Coffee Combos</h2>
+            <?php foreach ($coffeeCombos as $combo): ?>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center md:items-start mb-6 card">
+                    <div class="w-full md:w-[200px] mb-4 md:mb-0">
+                        <img src="<?= htmlspecialchars($combo['image']); ?>"
+                            alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6 text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
+                        <p class="text-sm text-gray-600 mt-2"><?= htmlspecialchars($combo['description']); ?></p>
+                        <p class="text-xs text-gray-500 mt-1">Coffee: <?= htmlspecialchars($combo['coffee_calories']); ?> | Cake: <?= htmlspecialchars($combo['cake_calories']); ?> | Total: <?= htmlspecialchars($combo['total_calories']); ?></p>
+                        <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
+                        <p class="text-lg md:text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
+                        <div class="flex flex-col md:flex-row justify-center md:justify-between items-center mt-4 btn-cart">
+                            <div class="flex items-center mb-4 md:mb-0">
+                                <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
+                                <span class="quantity-value px-4">1</span>
+                                <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
                             </div>
+                            <button class="bg-[#452D1C] hover:bg-[#310E05] text-white py-3 px-6 rounded-full cart-btn flex items-center w-fit shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
+                                <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-2" alt="">
+                                <p class="font-semibold tracking-wide">Add to Cart</p>
+                            </button>
+
                         </div>
                     </div>
-                <?php endforeach; ?>
-            </div>
-
-            <!-- Sweets Combos -->
-            <div id="sweets-combos" style="display: none;">
-                <h2 class="text-3xl font-bold mb-6 text-center font-montserrat">Sweets Combos</h2>
-                <?php foreach ($sweetsCombos as $combo): ?>
-                    <div class="bg-white rounded-lg shadow-lg p-6 flex mb-6 card">
-                        <!-- Image Section -->
-                        <div class="w-[200px]">
-                            <img src="<?= htmlspecialchars($combo['image']); ?>"
-                                alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
-                        </div>
-                        <!-- Details Section -->
-                        <div class="w-3/4 pl-6">
-                            <h3 class="text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
-                            <p class="text-sm text-gray-600 mt-2 font-montserrat">
-                                <?= htmlspecialchars($combo['description']); ?>
-                            </p>
-
-                            <p class="text-xs text-gray-500 mt-1 font-montserrat">
-                                <?= htmlspecialchars($combo['calories']); ?>
-                            </p>
-                            <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
-                            <p class="text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
-
-                            <div class="flex justify-between items-center mt-4 btn-cart">
-                                <div class="flex items-center">
-                                    <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
-                                    <span class="quantity-value px-4">1</span>
-                                    <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
-
-                                </div>
-                                <button
-                                    class="bg-[#310E05] text-white py-2 px-6 rounded-lg flex justify-center cart-btn items-center w-[200px]">
-                                    <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-3 ml-3" alt="">
-                                    <p>CART</p>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-
-
-
-            <!-- Food Combos -->
-            <div id="food-combos" style="display: none;">
-                <h2 class="text-3xl font-bold mb-6 text-center font-montserrat">Food Combos</h2>
-                <?php foreach ($foodCombos as $combo): ?>
-                    <div class="bg-white rounded-lg shadow-lg p-6 flex mb-6 card">
-                        <!-- Image Section -->
-                        <div class="w-[200px]">
-                            <img src="<?= htmlspecialchars($combo['image']); ?>"
-                                alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
-                        </div>
-                        <!-- Details Section -->
-                        <div class="w-3/4 pl-6">
-                            <h3 class="text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
-                            <p class="text-sm text-gray-600 mt-2 font-montserrat">
-                                <?= htmlspecialchars($combo['description']); ?>
-                            </p>
-                            <p class="text-xs text-gray-500 mt-1 font-montserrat">
-                                <?= htmlspecialchars($combo['calories']); ?>
-                            </p>
-                            <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
-                            <p class="text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
-
-                            <div class="flex justify-between items-center mt-4 btn-cart">
-                                <div class="flex items-center">
-                                    <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
-                                    <span class="quantity-value px-4">1</span>
-                                    <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
-
-                                </div>
-                                <button
-                                    class="bg-[#310E05] text-white py-2 px-6 rounded-lg flex justify-center cart-btn items-center w-[200px]">
-                                    <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-3 ml-3" alt="">
-                                    <p>CART</p>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-
+                </div>
+            <?php endforeach; ?>
         </div>
-        <script src="combo.js"></script>
+
+        <!-- Sweets Combos -->
+        <div id="sweets-combos" class="space-y-8 hidden">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Sweets Combos</h2>
+            <?php foreach ($sweetsCombos as $combo): ?>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center md:items-start mb-6 card">
+                    <div class="w-full md:w-[200px] mb-4 md:mb-0">
+                        <img src="<?= htmlspecialchars($combo['image']); ?>"
+                            alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6 text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
+                        <p class="text-sm text-gray-600 mt-2"><?= htmlspecialchars($combo['description']); ?></p>
+                        <p class="text-xs text-gray-500 mt-1"><?= htmlspecialchars($combo['calories']); ?></p>
+                        <p class="text-lg md:text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
+                        <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
+                        <div class="flex flex-col md:flex-row justify-center md:justify-between items-center mt-4 btn-cart">
+                            <div class="flex items-center mb-4 md:mb-0">
+                                <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
+                                <span class="quantity-value px-4">1</span>
+                                <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
+                            </div>
+                            <button class="bg-[#452D1C] hover:bg-[#310E05] text-white py-3 px-6 rounded-full cart-btn flex items-center w-fit shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
+                                <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-2" alt="">
+                                <p class="font-semibold tracking-wide">Add to Cart</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+        <!-- Food Combos -->
+        <div id="food-combos" class="space-y-8 hidden">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Food Combos</h2>
+            <?php foreach ($foodCombos as $combo): ?>
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center md:items-start mb-6 card">
+                    <div class="w-full md:w-[200px] mb-4 md:mb-0">
+                        <img src="<?= htmlspecialchars($combo['image']); ?>"
+                            alt="<?= htmlspecialchars($combo['name']); ?>" class="w-full h-44 object-cover rounded-lg">
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6 text-center md:text-left">
+                        <h3 class="text-xl md:text-2xl font-poiret"><?= htmlspecialchars($combo['name']); ?></h3>
+                        <p class="text-sm text-gray-600 mt-2"><?= htmlspecialchars($combo['description']); ?></p>
+                        <p class="text-xs text-gray-500 mt-1"><?= htmlspecialchars($combo['calories']); ?></p>
+                        <input type="hidden" name="product_price" value="<?= $combo['price'] ?>">
+                        <p class="text-lg md:text-xl font-bold mt-4">₹<?= htmlspecialchars($combo['price']); ?></p>
+                        <div class="flex flex-col md:flex-row justify-center md:justify-between items-center mt-4 btn-cart">
+                            <div class="flex items-center mb-4 md:mb-0">
+                                <button class="quantity-btn minus bg-gray-200 px-2 py-1 rounded-l">-</button>
+                                <span class="quantity-value px-4">1</span>
+                                <button class="quantity-btn plus bg-gray-200 px-2 py-1 rounded-r">+</button>
+                            </div>
+                            <button class="bg-[#452D1C] hover:bg-[#310E05] text-white py-3 px-6 rounded-full cart-btn flex items-center w-fit shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
+                                <img src="./stocks/grocery-store.png" class="w-5 h-auto mr-2" alt="">
+                                <p class="font-semibold tracking-wide">Add to Cart</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+    <script src="combo.js"></script>
 
 </body>
 

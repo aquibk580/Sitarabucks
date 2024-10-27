@@ -53,37 +53,37 @@ include("./menu_arr.php");
                 <a href="./black_coffee_page.php">
                     <img src=".\stocks\menu\status1.jpg" alt="Black Coffee" class="category-image">
                 </a>
-                <p>BLACK COFFEE</p>
+                <p class="menu-text">BLACK COFFEE</p>
             </div>
             <div class="category-item">
                 <a href="milk_coffee_page.php">
                     <img src=".\stocks\menu\status2.jpg" alt="Milk Coffee" class="category-image">
                 </a>
-                <p>MILK COFFEE</p>
+                <p class="menu-text">MILK COFFEE</p>
             </div>
             <div class="category-item">
                 <a href="cold_coffee_page.php">
                     <img src=".\stocks\menu\status3.jpg" alt="Cold Coffee" class="category-image">
                 </a>
-                <p>COLD COFFEE</p>
+                <p class="menu-text">COLD COFFEE</p>
             </div>
             <div class="category-item">
                 <a href="food_page.php">
                     <img src=".\stocks\menu\status4.jpg" alt="Food" class="category-image">
                 </a>
-                <p>FOOD</p>
+                <p class="menu-text">FOOD</p>
             </div>
             <div class="category-item">
                 <a href="sweets_page.php">
                     <img src=".\stocks\menu\status5.jpg" alt="Sweets" class="category-image arc">
                 </a>
-                <p>SWEETS</p>
+                <p class="menu-text">SWEETS</p>
             </div>
             <div class="category-item">
                 <a href="milk_shake_page.php">
                     <img src=".\stocks\menu\status6.jpg" alt="Sweets" class="category-image">
                 </a>
-                <p>MILKSHAKE</p>
+                <p class="menu-text">MILKSHAKE</p>
             </div>
         </div>
         <div class="product-grid">

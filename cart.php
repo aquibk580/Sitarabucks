@@ -42,24 +42,24 @@
     ?>
 
     <!-- Main Content Area -->
-    <div class="ml-56 p-8 flex flex-wrap  lg:flex-nowrap">
+    <div class="lg:ml-56 p-8 flex flex-wrap lg:flex-nowrap place-content-center">
         <!-- Left side content -->
 
-        <div class="flex-1 pr-8 mb-8 lg:mb-0">
-           
+        <div class="flex-1 md:pr-8">
 
-        <?php
-if (!$cartEmpty): // Only show buttons if cart is not empty
-?>
-    <form method="post" class="flex overflow-hidden mb-8">
-        <button id="dineIn" name="place" value="dineIn" class="rounded-l-lg px-4 py-2 bg-[#310E05] text-white font-semibold border border-[#310E05] transition duration-300" onclick="toggleButtonColors(this, document.getElementById('takeAway'))">DINE IN</button>
-        <button id="takeAway" name="place" value="takeAway" class="rounded-r-lg px-4 py-2 bg-white text-[#310E05] font-semibold border border-[#310E05] transition duration-300" onclick="toggleButtonColors(this, document.getElementById('dineIn'))">TAKE AWAY</button>
-    </form>
-<?php
-endif; // End of cart check
-?>
 
-        
+            <?php
+            if (!$cartEmpty): // Only show buttons if cart is not empty
+            ?>
+                <form method="post" class="flex overflow-hidden mb-8">
+                    <button id="dineIn" name="place" value="dineIn" class="rounded-l-lg px-4 py-2 bg-[#310E05] text-white font-semibold border border-[#310E05] transition duration-300" onclick="toggleButtonColors(this, document.getElementById('takeAway'))">DINE IN</button>
+                    <button id="takeAway" name="place" value="takeAway" class="rounded-r-lg px-4 py-2 bg-white text-[#310E05] font-semibold border border-[#310E05] transition duration-300" onclick="toggleButtonColors(this, document.getElementById('dineIn'))">TAKE AWAY</button>
+                </form>
+            <?php
+            endif; // End of cart check
+            ?>
+
+
             <!-- Products and Order Items -->
             <div id="orderItems">
                 <?php
@@ -69,38 +69,38 @@ endif; // End of cart check
             </div>
         </div>
         <script>
-function toggleButtonColors(clickedButton, otherButton) {
-    // Prevent the default form submission
-    // event.preventDefault();
+            function toggleButtonColors(clickedButton, otherButton) {
+                // Prevent the default form submission
+                // event.preventDefault();
 
-    // Always set the clicked button to brown background and white text
-    clickedButton.classList.remove('bg-white', 'text-[#310E05]');
-    clickedButton.classList.add('bg-[#310E05]', 'text-white');
+                // Always set the clicked button to brown background and white text
+                clickedButton.classList.remove('bg-white', 'text-[#310E05]');
+                clickedButton.classList.add('bg-[#310E05]', 'text-white');
 
-    // Always set the other button to white background and brown text
-    otherButton.classList.remove('bg-[#310E05]', 'text-white');
-    otherButton.classList.add('bg-white', 'text-[#310E05]');
+                // Always set the other button to white background and brown text
+                otherButton.classList.remove('bg-[#310E05]', 'text-white');
+                otherButton.classList.add('bg-white', 'text-[#310E05]');
 
-}
+            }
 
-// Set initial state (Dine In selected by default)
-window.onload = function() {
-    const dineInButton = document.getElementById('dineIn');
-    const takeAwayButton = document.getElementById('takeAway');
-    if (dineInButton && takeAwayButton) {
-        // Ensure Dine In starts as selected (brown background, white text)
-        dineInButton.classList.remove('bg-white', 'text-[#310E05]');
-        dineInButton.classList.add('bg-[#310E05]', 'text-white');
-        
-        // Ensure Take Away starts as unselected (white background, brown text)
-        takeAwayButton.classList.remove('bg-[#310E05]', 'text-white');
-        takeAwayButton.classList.add('bg-white', 'text-[#310E05]');
-    }
-};
-</script>
+            // Set initial state (Dine In selected by default)
+            window.onload = function() {
+                const dineInButton = document.getElementById('dineIn');
+                const takeAwayButton = document.getElementById('takeAway');
+                if (dineInButton && takeAwayButton) {
+                    // Ensure Dine In starts as selected (brown background, white text)
+                    dineInButton.classList.remove('bg-white', 'text-[#310E05]');
+                    dineInButton.classList.add('bg-[#310E05]', 'text-white');
+
+                    // Ensure Take Away starts as unselected (white background, brown text)
+                    takeAwayButton.classList.remove('bg-[#310E05]', 'text-white');
+                    takeAwayButton.classList.add('bg-white', 'text-[#310E05]');
+                }
+            };
+        </script>
 
         <!-- Right side content -->
-            <div class="w-80 mr-10 mt-20">
+        <div class="w-80 lg:mr-10 mt-20">
             <form method="post">
                 <?php
                 // Check if cart is empty
@@ -146,50 +146,50 @@ window.onload = function() {
                     </div>
                 </div>';
                 ?>
-               
-               <!-- Payment Options -->
-<div class="flex justify-between mb-4">
-    <label id="cashLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
-        <input type="radio" name="paymentMode" value="cash" class="hidden" onchange="updatePaymentStyle(this)">
-        <img id="cashIcon" src="assets/icons/cashMain.png" alt="Cash" class="w-6 h-6 mb-1 filter brightness-0">
-        <span class="text-xs">CASH</span>
-    </label>
-    <label id="cardLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
-        <input type="radio" name="paymentMode" value="card" class="hidden" onchange="updatePaymentStyle(this)">
-        <img id="cardIcon" src="assets/icons/cardMain.png" alt="Card" class="w-6 h-6 mb-1 filter brightness-0">
-        <span class="text-xs">CARD</span>
-    </label>
-    <label id="upiLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
-        <input type="radio" name="paymentMode" value="upi" class="hidden" onchange="updatePaymentStyle(this)">
-        <img id="upiIcon" src="assets/icons/upiMain.png" alt="UPI" class="w-6 h-6 mb-1 filter brightness-0">
-        <span class="text-xs">UPI</span>
-    </label>
-</div>
 
-<script>
-function updatePaymentStyle(radio) {
-    const labels = ['cashLabel', 'cardLabel', 'upiLabel'];
-    const icons = ['cashIcon', 'cardIcon', 'upiIcon'];
-    
-    labels.forEach((label, index) => {
-        const el = document.getElementById(label);
-        const icon = document.getElementById(icons[index]);
-        if (radio.value === label.replace('Label', '')) {
-            el.classList.remove('bg-white');
-            el.classList.add('bg-[#310E05]', 'text-white');
-            icon.classList.remove('brightness-0');
-            icon.classList.add('brightness-0', 'invert');
-        } else {
-            el.classList.remove('bg-[#310E05]', 'text-white');
-            el.classList.add('bg-white');
-            icon.classList.remove('brightness-0', 'invert');
-            icon.classList.add('brightness-0');
-        }
-    });
-}
-</script>
+                <!-- Payment Options -->
+                <div class="flex justify-between mb-4">
+                    <label id="cashLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
+                        <input type="radio" name="paymentMode" value="cash" class="hidden" onchange="updatePaymentStyle(this)">
+                        <img id="cashIcon" src="assets/icons/cashMain.png" alt="Cash" class="w-6 h-6 mb-1 filter brightness-0">
+                        <span class="text-xs">CASH</span>
+                    </label>
+                    <label id="cardLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
+                        <input type="radio" name="paymentMode" value="card" class="hidden" onchange="updatePaymentStyle(this)">
+                        <img id="cardIcon" src="assets/icons/cardMain.png" alt="Card" class="w-6 h-6 mb-1 filter brightness-0">
+                        <span class="text-xs">CARD</span>
+                    </label>
+                    <label id="upiLabel" class="flex flex-col cursor-pointer items-center justify-center w-24 h-16 bg-white border border-gray-300 rounded-md transition duration-300">
+                        <input type="radio" name="paymentMode" value="upi" class="hidden" onchange="updatePaymentStyle(this)">
+                        <img id="upiIcon" src="assets/icons/upiMain.png" alt="UPI" class="w-6 h-6 mb-1 filter brightness-0">
+                        <span class="text-xs">UPI</span>
+                    </label>
+                </div>
 
-                
+                <script>
+                    function updatePaymentStyle(radio) {
+                        const labels = ['cashLabel', 'cardLabel', 'upiLabel'];
+                        const icons = ['cashIcon', 'cardIcon', 'upiIcon'];
+
+                        labels.forEach((label, index) => {
+                            const el = document.getElementById(label);
+                            const icon = document.getElementById(icons[index]);
+                            if (radio.value === label.replace('Label', '')) {
+                                el.classList.remove('bg-white');
+                                el.classList.add('bg-[#310E05]', 'text-white');
+                                icon.classList.remove('brightness-0');
+                                icon.classList.add('brightness-0', 'invert');
+                            } else {
+                                el.classList.remove('bg-[#310E05]', 'text-white');
+                                el.classList.add('bg-white');
+                                icon.classList.remove('brightness-0', 'invert');
+                                icon.classList.add('brightness-0');
+                            }
+                        });
+                    }
+                </script>
+
+
 
                 <!-- Coupon Code and Place Order -->
                 <div class="flex space-x-2">
@@ -238,49 +238,53 @@ function updatePaymentStyle(radio) {
                         echo '   <div class="flex justify-center items-start place-items-center z-[1] bg-black bg-opacity-50 backdrop-blur-sm h-screen w-screen absolute top-0 left-0">';
                         if ($_POST['paymentMode'] === "cash") {
                             $_SESSION['paymentMode'] = "Cash";
-                            echo ' <div id="popup" class="bg-white rounded-3xl shadow-xl p-8 max-w-xl w-full mx-4 absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
-        <h2 class="text-2xl font-bold text-center mb-6">Waiting for payment!</h2>
-        <div class="flex justify-center mb-6">
-            <!-- Replace this with an actual QR code -->
-            <div class="w-48 h-48 flex items-center justify-center">
-                <img src="./assets/icons/cashPopUp.png" class="w-[166px] h-[171px] mix-blend-multiply" alt="">
-            </div>
+                            echo ' <div id="popup" class="bg-white rounded-3xl shadow-xl p-4 lg:p-8 max-w-md md:max-w-lg w-[90%] sm:w-3/4 lg:w-full absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6">Waiting for payment!</h2>
+    <div class="flex justify-center mb-4 md:mb-6">
+        <!-- Replace this with an actual QR code -->
+        <div class="w-32 h-32 md:w-48 md:h-48 flex items-center justify-center">
+            <img src="./assets/icons/cashPopUp.png" class="w-[120px] h-[125px] md:w-[166px] md:h-[171px] mix-blend-multiply" alt="">
         </div>
-        <div class="flex justify-between gap-4">
-               <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Back</a>
-                <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Go To Bill</a>
-        </div>
-    </div>';
+    </div>
+    <div class="flex flex-col sm:flex-row justify-between gap-4 w-full">
+        <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Back</a>
+        <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Go To Bill</a>
+    </div>
+</div>
+
+';
                         } else if ($_POST['paymentMode'] === "card") {
                             $_SESSION['paymentMode'] = "Card";
-                            echo ' <div id="popup" class="bg-white rounded-3xl shadow-xl p-8 max-w-xl w-full mx-4 absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
-                                <h2 class="text-2xl font-bold text-center mb-6">Waiting for payment!</h2>
-                                <div class="flex justify-center mb-6">
-                                    <!-- Replace this with an actual QR code -->
-                                    <div class="w-48 h-48 flex items-center justify-center object-cover">
-                                        <img src="./assets/icons/cardPopUp.png" class="w-[100%] h-[100%]" alt="">
-                                    </div>
-                                </div>
-                                <div class="flex justify-between gap-4">
-                                     <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Back</a>
-                                     <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Go To Bill</a>
-                                </div>
-                            </div>';
+                            echo ' <div id="popup" class="bg-white rounded-3xl shadow-xl p-4 lg:p-8 max-w-md md:max-w-lg w-[90%] sm:w-3/4 lg:w-full absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6">Waiting for payment!</h2>
+    <div class="flex justify-center mb-4 md:mb-6">
+        <!-- Replace this with an actual QR code -->
+        <div class="w-32 h-32 md:w-48 md:h-48 flex items-center justify-center">
+            <img src="./assets/icons/cardPopUp.png" class="w-[120px] h-[125px] md:w-[166px] md:h-[171px] mix-blend-multiply" alt="">
+        </div>
+    </div>
+    <div class="flex flex-col sm:flex-row justify-between gap-4 w-full">
+        <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Back</a>
+        <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Go To Bill</a>
+    </div>
+</div>
+';
                         } else if ($_POST['paymentMode'] === "upi") {
                             $_SESSION['paymentMode'] = "UPI";
-                            echo ' <div id="popup" class="bg-white rounded-3xl shadow-xl p-8 max-w-xl w-full mx-4 absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
-                                <h2 class="text-2xl font-bold text-center mb-6">Waiting for payment!</h2>
-                                <div class="flex justify-center mb-6">
-                                    <!-- Replace this with an actual QR code -->
-                                    <div class="w-48 h-48 flex items-center justify-center object-cover">
-                                        <img src="./assets/icons/upiPopUp.png" class="w-[100%] h-[100%]" alt="">
-                                    </div>
-                                </div>
-                                <div class="flex justify-between gap-4">
-                                     <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Back</a>
-                                     <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-6 w-full text-center">Go To Bill</a>
-                                </div>
-                            </div>';
+                            echo '<div id="popup" class="bg-white rounded-3xl shadow-xl p-4 lg:p-8 max-w-md md:max-w-lg w-[90%] sm:w-3/4 lg:w-full absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6">Waiting for payment!</h2>
+    <div class="flex justify-center mb-4 md:mb-6">
+        <!-- Replace this with an actual QR code -->
+        <div class="w-32 h-32 md:w-48 md:h-48 flex items-center justify-center">
+            <img src="./assets/icons/upiPopUp.png" class="w-[120px] h-[125px] md:w-[166px] md:h-[171px] mix-blend-multiply" alt="">
+        </div>
+    </div>
+    <div class="flex flex-col sm:flex-row justify-between gap-4 w-full">
+        <a href="Cart.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Back</a>
+        <a href="./bill.php" class="bg-[#3D1D0E] text-white rounded-full py-2 px-4 md:px-6 flex-grow text-center">Go To Bill</a>
+    </div>
+</div>
+';
                         }
                         echo ' </div>';
                     } else {

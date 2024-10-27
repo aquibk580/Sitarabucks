@@ -134,7 +134,7 @@ if (!isset($_SESSION['order_inserted'])) {
         </div>';
             ?>
         </div>
-        <div class="ml-6">
+        <div class="lg:ml-6">
             <div class="flex mt-5 ml-5">
                 <form action="yourbill.php" method="POST">
                     <button class="bg-gray-300 text-gray-800 w-32 px-5 py-2.5 rounded-lg mr-2" name="yourBill">Print bill</button>

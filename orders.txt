@@ -172,3 +172,21 @@ Product Name: NUTELLA MILKSHAKE, Quantity: 2, Price: 250, Product Image: ./stock
 Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
 Product Name: COLD BREW, Quantity: 1, Price: 180, Product Image: ./stocks/menu/MENU_img/black_coffee_img/cold_brew.jpg
 Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: AMERICANO, Quantity: 1, Price: 150, Product Image: ./stocks/menu/MENU_img/black_coffee_img/americano.jpg
+Product Name: Coffee And Cake Combo, Quantity: 1, Price: 299, Product Image: ./stocks/m5.jpg
